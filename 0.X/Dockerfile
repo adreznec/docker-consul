@@ -2,7 +2,7 @@ FROM ppc64le/alpine:edge
 MAINTAINER James Phillips <james@hashicorp.com> (@slackpad)
 
 # This is the release of Consul to pull in.
-ENV CONSUL_VERSION=0.8.1
+ENV CONSUL_VERSION=0.7.0
 
 # Create a consul user and group first so the IDs get set the same way, even as
 # the rest of this may change over time.
